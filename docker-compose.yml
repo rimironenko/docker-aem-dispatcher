@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dispatcher:
+    image: aem-dispatcher
+    build: ./aem-dispatcher
+    ports:
+      - "8080:80"
